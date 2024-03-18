@@ -42,6 +42,8 @@ I experimented by using 5x more training documents (800 vs 4000 training documen
 
 ![model training using 4000 training documents]("multi_news_train_4000_t5-small_summary_model_training_metrics.jpg")
 
+We see that a larger training set improved the Rouge 1 and Rouge L scores. 
+We can also see that all Rouge scores improve with each epoch in the larger training set. 
 
 **Note:** Due to limited GPU time availability on Google Colab, most hyperparameter tuning was not possible in the permitted time.
 (Notebook would crash while using CPU and I ran out of Colab GPU time twice! I am unable to complete any more tuning at this time.)
